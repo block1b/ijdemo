@@ -1,25 +1,40 @@
-package model;
 
+import java.util.*;
+
+/**
+ * 
+ */
 public class User {
-    static String id;
-    static String password;
 
-
-    public String getId() {
-        return id;
+    /**
+     * Default constructor
+     */
+    public User() {
     }
 
-    public String getPassword() {
-        return password;
-    }
+    /**
+     * 
+     */
+    private String uesrid;
 
-    public void setId(String id) {
+    /**
+     * 
+     */
+    private String username;
 
-        User.id = id;
-    }
+    /**
+     * 
+     */
+    private String password;
 
-    public void setPassword(String password) {
-        User.password = password;
-    }
+    /**
+     * 
+     */
+    private String classname;
+
+    /**
+     * 
+     */
+    private String roleid;
 
 }

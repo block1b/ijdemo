@@ -35,6 +35,18 @@ course(courseid,coursename)
 serve(serveid,userid,courseid)
 
 topic(serveid,topicid,topicname)
-grade(serveid,userid,topicid,gd1,gd2,gd3,gd4,gdsum,comment,classrank,majorrank)
+grade(serveid,userid,topicid,
+        gd1,gd2,gd3,gd4,gdsum,comment,
+        classrank,majorrank)
 
 如上7个表就是数据库中的表，全部使用string类型，数字在Java中转换计算。
+
+
+
+
+
+
+
+
+
+
