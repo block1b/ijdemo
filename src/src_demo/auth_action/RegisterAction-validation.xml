@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE validators PUBLIC  
+        "-//Apache Struts//XWork Validator 1.0.2//EN"  
+        "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">  
+          
+<validators>  
+    <field name="user.username">  
+        <field-validator type="requiredstring">  
+            <param name="trim">true</param>  
+            <message>required string</message>  
+        </field-validator>  
+<!--         <field-validator type="email">   -->
+<!--             <message>username should be email</message>   -->
+<!--         </field-validator>   -->
+<!--         <field-validator type="stringlength">   -->
+<!--             <param name="maxLength">10</param>   -->
+<!--             <param name="minLength">6</param>   -->
+<!--             <message>username should between ${minLength} and ${maxLength}</message>   -->
+<!--         </field-validator>   -->
+    </field>
+    <field name="user.password">
+    	<field-validator type="requiredstring">
+    	<message>required string</message>
+    	</field-validator>
+    </field>  
+    <field name="user.age">  
+        <field-validator type="int">  
+            <param name="min">1</param>  
+            <param name="max">100</param>  
+            <message>age should between ${min} and ${max}</message>  
+        </field-validator>  
+    </field>  
+<!--     <field name="birthday">   -->
+<!--         <field-validator type="date">   -->
+<!--             <param name="min">1900-1-1</param>   -->
+<!--             <param name="max">2016-1-1</param>   -->
+<!--             <message>birthday should between ${min} and ${max}</message>   -->
+<!--         </field-validator>   -->
+<!--         <field-validator type="conversion">   -->
+<!--             <param name="repopulateField">true</param>   -->
+<!--             <message>birthday convert error</message>   -->
+<!--         </field-validator>   -->
+<!--     </field>   -->
+</validators>  

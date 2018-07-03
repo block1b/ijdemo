@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+<!-- 定义全部范围的资源文件    value必须是 资源文件的基本名！！！例：本例使用app_en_US.properties -->  
+<constant name="struts.custom.i18n.resources" value="app"/>  
+<constant name="struts.i18n.encoding" value="UTF-8" />
+<package name="default" extends="struts-default">
+
+	<action name="login" class="auth_action.LoginAction">
+		<result type="redirect">/admin/main.jsp</result>
+		<result name="error">/auth/login_error.jsp</result>
+		<result name="input">/auth/login.jsp</result>
+	</action>
+	<action name="logout" class="auth_action.LogoutAction" method="logout">
+		<result name="index">/index.jsp</result>
+	</action>
+	<action name="register" class="auth_action.RegisterAction" >
+		<result name="input">/auth/register.jsp</result>
+		<result>/index.jsp</result>
+	</action>
+	<action name="upload" class="main_action.UploadAction">
+		<result>/admin/uploadSuccess.jsp</result>
+	</action>
+	<action name="uploadmulti" class="main_action.UploadMultiAction">
+		<result>/admin/uploadMultiSuccess.jsp</result>
+	</action>
+	<action name="download" class="main_action.DownLoadAction">
+		<result type="stream">
+			<param name="contentType">${contentType}</param>
+			<param name="inputName">inputStream</param>
+			<param name="contentDisposition">attachment;filename=${filename}</param>
+			<param name="bufferSize">4096</param>
+		</result>
+	</action>
+	<action name="stu_query" class="main_action.MainAction" method="query">
+		<result>/admin/stuscore_list.jsp</result>
+		<result name="error">/admin/error.jsp</result>
+	</action>
+	<action name="stu_delete" class="main_action.MainAction" method="delete">
+		<result>/admin/delete_suc.jsp</result>
+		<result name="error">/admin/error.jsp</result>
+	</action>
+	<action name="stu_save" class="main_action.MainAction" method="add">
+		<result>/admin/save_suc.jsp</result>
+<!-- 跳转至stu_query.action  -->
+<!-- 		<result type="chain">stu_query</result> -->
+		<result name="error">/admin/error.jsp</result>
+	</action>
+	
+<!-- 	<action name="stu_*" class="main_action.MainAction" method="{1}"> -->
+<!--         <result type="redirect">/admin/stuscore_list.jsp</result> -->
+<!--         <result name="error" type="redirect">/admin/error.jsp</result> -->
+<!--         <allowed-methods>update,del</allowed-methods> -->
+<!--      </action>    -->
+	
+</package>
+
+<package name="main" namespace="/main" extends="struts-default">
+	<interceptors>
+		<interceptor name="loginInterceptor" class="interceptor.LoginValidateInterceptor"></interceptor>
+		<interceptor-stack name="myStack">
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</interceptor-stack>
+	</interceptors>
+<!-- 	为整个packge设置拦截器 -->
+<!-- 	<default-interceptor-ref name="myStack"></default-interceptor-ref> -->
+	<global-results>
+		<result name="login">/auth/login.jsp</result>
+	</global-results>
+	<action name="add" class="main_action.MainAction">
+<!-- 		<interceptor-ref name="myStack"></interceptor-ref> -->
+		<result>/admin/add.jsp</result>
+	</action>
+	
+</package>
+</struts>
