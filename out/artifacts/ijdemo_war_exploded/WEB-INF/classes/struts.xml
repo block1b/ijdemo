@@ -5,4 +5,13 @@
         "http://struts.apache.org/dtds/struts-2.0.dtd">
 
 <struts>
+    <!--排除静态文件，避免被过滤器过滤-->
+    <constant name="struts.action.excludePattern" value="/static/.*?" />
+    <package name="default" extends="struts-default">
+        <action name="login" class="auth_action.LoginAction">
+            <result>/template/auth/secceed.jsp</result>
+            <result name="error">/template/auth/error.jsp</result>
+
+        </action>
+    </package>
 </struts>
