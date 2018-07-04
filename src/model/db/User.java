@@ -86,4 +86,15 @@ public class User {
      */
     private String roleid;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", uesrid='" + uesrid + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", classname='" + classname + '\'' +
+                ", roleid='" + roleid + '\'' +
+                '}';
+    }
 }

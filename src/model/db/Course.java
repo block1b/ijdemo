@@ -47,4 +47,13 @@ public class Course {
     public void setCoursename(String coursename) {
         this.coursename = coursename;
     }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "id=" + id +
+                ", courseid='" + courseid + '\'' +
+                ", coursename='" + coursename + '\'' +
+                '}';
+    }
 }

@@ -52,4 +52,13 @@ public class Serve {
     public String getCourseid() {
         return courseid;
     }
+
+    @Override
+    public String toString() {
+        return "Serve{" +
+                "id=" + id +
+                ", userid='" + userid + '\'' +
+                ", courseid='" + courseid + '\'' +
+                '}';
+    }
 }

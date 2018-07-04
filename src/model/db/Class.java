@@ -34,4 +34,11 @@ public class Class {
      */
     private String classname;
 
+    @Override
+    public String toString() {
+        return "Class{" +
+                "id=" + id +
+                ", classname='" + classname + '\'' +
+                '}';
+    }
 }

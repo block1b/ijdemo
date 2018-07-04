@@ -60,4 +60,14 @@ public class Topic {
     public void setTopicname(String topicname) {
         this.topicname = topicname;
     }
+
+    @Override
+    public String toString() {
+        return "Topic{" +
+                "id=" + id +
+                ", serveid='" + serveid + '\'' +
+                ", topicid='" + topicid + '\'' +
+                ", topicname='" + topicname + '\'' +
+                '}';
+    }
 }

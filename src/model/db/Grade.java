@@ -155,4 +155,21 @@ public class Grade {
     public String getMajorrank() {
         return majorrank;
     }
+
+    @Override
+    public String toString() {
+        return "Grade{" +
+                "serveid='" + serveid + '\'' +
+                ", userid='" + userid + '\'' +
+                ", topicid='" + topicid + '\'' +
+                ", gd1='" + gd1 + '\'' +
+                ", gd2='" + gd2 + '\'' +
+                ", gd3='" + gd3 + '\'' +
+                ", gd4='" + gd4 + '\'' +
+                ", gdsum='" + gdsum + '\'' +
+                ", comment='" + comment + '\'' +
+                ", classrank='" + classrank + '\'' +
+                ", majorrank='" + majorrank + '\'' +
+                '}';
+    }
 }

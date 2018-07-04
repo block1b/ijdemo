@@ -37,6 +37,14 @@ public class Role {
     public Role() {
 
     }
+
+    public Role(int id, String roleid, String rolename, String permissions) {
+        this.id = id;
+        this.roleid = roleid;
+        this.rolename = rolename;
+        this.permissions = permissions;
+    }
+
     private int id;
 
     public int getId() {
@@ -62,4 +70,13 @@ public class Role {
      */
     private String permissions;
 
+    @Override
+    public String toString() {
+        return "Role{" +
+                "id=" + id +
+                ", roleid='" + roleid + '\'' +
+                ", rolename='" + rolename + '\'' +
+                ", permissions='" + permissions + '\'' +
+                '}';
+    }
 }
