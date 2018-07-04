@@ -1,4 +1,4 @@
-package model;
+package model.db;
 
 import java.util.*;
 
@@ -12,7 +12,6 @@ public class Grade {
      */
     public Grade() {
     }
-
     /**
      * 
      */

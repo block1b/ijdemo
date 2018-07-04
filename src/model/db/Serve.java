@@ -1,4 +1,4 @@
-package model;
+package model.db;
 
 import java.util.*;
 
@@ -12,15 +12,11 @@ public class Serve {
      */
     public Serve() {
     }
-
     /**
      * 
      */
-    private String serveid;
+    private int id;
 
-    public void setServeid(String serveid) {
-        this.serveid = serveid;
-    }
 
     public void setUserid(String userid) {
         this.userid = userid;
@@ -40,9 +36,14 @@ public class Serve {
      */
     private String courseid;
 
-    public String getServeid() {
-        return serveid;
+    public int getId() {
+        return id;
     }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
 
     public String getUserid() {
         return userid;

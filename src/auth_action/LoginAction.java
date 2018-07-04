@@ -7,7 +7,7 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
-import model.User;
+import model.db.User;
 
 public class LoginAction extends ActionSupport implements ModelDriven<User>, SessionAware{
 
@@ -25,7 +25,7 @@ public class LoginAction extends ActionSupport implements ModelDriven<User>, Ses
     }
 
     public String execute() throws Exception {
-        String User_name = User.getId();
+        String User_name = User.getUesrid();
         String User_pass = User.getPassword();
         System.out.println("Username:" + User_name);
         System.out.println("passworld:" + User_pass);

@@ -1,4 +1,4 @@
-package model;
+package model.db;
 
 import java.util.*;
 
@@ -36,6 +36,15 @@ public class Role {
      */
     public Role() {
 
+    }
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     /**
