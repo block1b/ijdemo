@@ -11,6 +11,16 @@ public class User {
      */
     public User() {
     }
+
+    public User(int id, String uesrid, String username, String password, String classname, String roleid) {
+        this.id = id;
+        this.userid = uesrid;
+        this.username = username;
+        this.password = password;
+        this.classname = classname;
+        this.roleid = roleid;
+    }
+
     private int id;
 
     public int getId() {
@@ -21,12 +31,8 @@ public class User {
         this.id = id;
     }
 
-    public String getUesrid() {
-        return uesrid;
-    }
-
-    public void setUesrid(String uesrid) {
-        this.uesrid = uesrid;
+   public void setUesrid(String uesrid) {
+        this.userid = uesrid;
     }
 
     public String getUsername() {
@@ -61,10 +67,18 @@ public class User {
         this.roleid = roleid;
     }
 
+    public String getUserid() {
+        return userid;
+    }
+
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
+
     /**
      * 
      */
-    private String uesrid;
+    private String userid;
 
     /**
      * 
@@ -90,7 +104,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", uesrid='" + uesrid + '\'' +
+                ", uesrid='" + userid + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", classname='" + classname + '\'' +

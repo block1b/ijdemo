@@ -1,31 +1,32 @@
 package dao.mydb;
 import model.db.Topic;
 
+import java.sql.SQLException;
 import java.util.*;
 
 /**
- * 
+ *
  */
 public interface TopicDao {
 
     /**
      * @return
      */
-    public int add();
+    public int add(Topic r)throws SQLException;
 
     /**
      * @return
      */
-    public int update();
+    public int update(Topic r)throws SQLException;
 
     /**
      * @return
      */
-    public int delete();
+    public int delete(Topic r)throws SQLException;
 
     /**
      * @return
      */
-    public List<Topic> findall();
+    public List<Topic> findall()throws SQLException;
 
 }

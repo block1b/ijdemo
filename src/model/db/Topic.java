@@ -13,6 +13,13 @@ public class Topic {
     public Topic() {
     }
 
+    public Topic(int id, String serveid, String topicid, String topicname) {
+        this.id = id;
+        this.serveid = serveid;
+        this.topicid = topicid;
+        this.topicname = topicname;
+    }
+
     public int getId() {
         return id;
     }

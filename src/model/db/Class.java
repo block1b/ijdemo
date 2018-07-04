@@ -20,6 +20,11 @@ public class Class {
     public Class() {
     }
 
+    public Class(int id, String classname) {
+        this.id = id;
+        this.classname = classname;
+    }
+
     public int getId() {
         return id;
     }

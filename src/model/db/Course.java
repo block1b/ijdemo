@@ -21,6 +21,13 @@ public class Course {
      */
     public Course() {
     }
+
+    public Course(int id, String courseid, String coursename) {
+        this.id = id;
+        this.courseid = courseid;
+        this.coursename = coursename;
+    }
+
     private int id;
     /**
      * 

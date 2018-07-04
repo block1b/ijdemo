@@ -7,45 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e84f523-2a9d-43f0-ad6c-5175f8671b89" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/dao/dao_rom_sj/Dao2/DBModeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/dao_rom_sj/Dao2/DBModelDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/dao_rom_sj/Dao2/db-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/dao_rom_sj/Dao2/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/mydb/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/mydb/db-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/mydb/db_demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/myrom/ClassInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/myrom/DBModeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/myrom/DBModelDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/myrom/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/myrom/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/myrom/db-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/myrom/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/excel/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/form/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/form/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/form/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/form/StuInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/my_starUML/Model/Class.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/my_starUML/Model/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/my_starUML/Model/Grade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/my_starUML/Model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/my_starUML/Model/Serve.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/my_starUML/Model/Topic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/my_starUML/Model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/my_starUML/model.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/数据库设计.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/数据库设计.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ijdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ijdemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/dao_rom_sj/Dao2/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/StudentDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/mytest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/需求分析.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/需求分析.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/ClassDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/ClassDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/ClassDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/ClassDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/CourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/CourseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/CourseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/CourseDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/GradeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/GradeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/GradeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/GradeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/ServeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/ServeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/ServeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/ServeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/TopicDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/TopicDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/TopicDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/TopicDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/mydb/db_demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/mydb/db_demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/myrom/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/myrom/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/db/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/db/Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/db/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/db/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/db/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/db/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/db/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/db/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/db/Serve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/db/Serve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/db/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/db/Topic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/db/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/db/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/form/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/form/README" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,13 +45,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="db_demo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dao/mydb/db_demo.java">
+      <file leaf-file-name="数据库设计.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/数据库设计.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="131">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/form/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Excel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/form/Excel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,9 +112,18 @@
       <find>inser</find>
       <find>Person</find>
       <find>int(11) NOT NULL AUTO_INCREMENT</find>
+      <find>throw new SQLException(&quot;查询所有数据失败&quot;);</find>
+      <find>throw new SQLException</find>
+      <find>Class</find>
+      <find>Course</find>
+      <find />
+      <find>sum</find>
+      <find>getGdsum</find>
+      <find>gdsum</find>
+      <find>Uesr</find>
+      <find>Role</find>
     </findStrings>
     <replaceStrings>
-      <replace>User</replace>
       <replace>Id</replace>
       <replace>obj</replace>
       <replace>public</replace>
@@ -104,6 +131,15 @@
       <replace>Object</replace>
       <replace>Role</replace>
       <replace>INTEGER GENERATED BY DEFAULT AS IDENTITY</replace>
+      <replace>Class</replace>
+      <replace>// throw new SQLException(&quot;查询所有数据失败&quot;);</replace>
+      <replace>// throw new SQLException</replace>
+      <replace>Course</replace>
+      <replace>Grade</replace>
+      <replace>Serve</replace>
+      <replace>Topic</replace>
+      <replace>User</replace>
+      <replace>DBDao</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -112,16 +148,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dao/dao_rom_sj/Dao2/DBModelDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/dao_rom_sj/Dao2/DBModeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/dao/dao_rom_sj/Dao2/DBUtils.java" />
-        <option value="$PROJECT_DIR$/src/dao/dao_rom_sj/Dao2/db-config.properties" />
-        <option value="$PROJECT_DIR$/src/dao/myrom/DBUtils.java" />
-        <option value="$PROJECT_DIR$/src/dao/myrom/db-config.properties" />
         <option value="$PROJECT_DIR$/src/dao/myrom/DBModelDao.java" />
         <option value="$PROJECT_DIR$/src/dao/myrom/demo.java" />
         <option value="$PROJECT_DIR$/src/dao/myrom/DBModeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/dao/myrom/README" />
         <option value="$PROJECT_DIR$/src/dao/myrom/ClassInfo.java" />
         <option value="$PROJECT_DIR$/src/dao/db/DBModeDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/dao/db/ClassDao.java" />
@@ -140,29 +169,36 @@
         <option value="$PROJECT_DIR$/src/dao/db/RoleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/dao/db/DBUtils.java" />
         <option value="$PROJECT_DIR$/src/dao/db/db_demo.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/ServeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/ClassDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/ClassDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/CourseDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/CourseDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/GradeDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/GradeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/ServeDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/TopicDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/TopicDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/dao/mydb/RoleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/dao/mydb/DBUtils.java" />
         <option value="$PROJECT_DIR$/doc/数据库设计.txt" />
         <option value="$PROJECT_DIR$/src/model/db/Role.java" />
-        <option value="$PROJECT_DIR$/src/model/db/Class.java" />
-        <option value="$PROJECT_DIR$/src/model/db/Course.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/ClassDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/myrom/README" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/CourseDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/GradeDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/ServeDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/TopicDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/UserDao.java" />
         <option value="$PROJECT_DIR$/src/model/db/Grade.java" />
         <option value="$PROJECT_DIR$/src/model/db/Serve.java" />
-        <option value="$PROJECT_DIR$/src/model/db/Topic.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/TopicDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/RoleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/ServeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/GradeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/CourseDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/model/db/User.java" />
+        <option value="$PROJECT_DIR$/src/model/db/Course.java" />
+        <option value="$PROJECT_DIR$/src/model/db/Topic.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/DBModel.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/DBDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/mydb/ClassDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/model/db/Class.java" />
         <option value="$PROJECT_DIR$/src/dao/mydb/db_demo.java" />
+        <option value="$PROJECT_DIR$/src/model/form/StuInfo.java" />
+        <option value="$PROJECT_DIR$/src/model/form/Group.java" />
+        <option value="$PROJECT_DIR$/src/model/form/Excel.java" />
+        <option value="$PROJECT_DIR$/src/model/form/README" />
       </list>
     </option>
   </component>
@@ -183,9 +219,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="231" />
-    <option name="y" value="189" />
-    <option name="width" value="1256" />
+    <option name="x" value="74" />
+    <option name="y" value="187" />
+    <option name="width" value="1219" />
     <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -222,20 +258,6 @@
               <item name="ijdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ijdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="dao_rom_sj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ijdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ijdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mydb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ijdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ijdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,7 +265,7 @@
               <item name="ijdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ijdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -501,10 +523,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46612000" />
+    <option name="totallyTimeSpent" value="58393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="231" y="189" width="1256" height="1200" extended-state="0" />
+    <frame x="74" y="187" width="1219" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -526,9 +548,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.28413284" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21586716" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21586716" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18790323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19368246" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -572,49 +594,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dao/dao_rom_sj/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/dao_rom_sj/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/dao_rom_sj/StuDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/dao_rom_sj/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/myrom/DBModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/StudentDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1776">
@@ -746,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/myrom/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/db/DBModelDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -767,150 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/RoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/myrom/demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="46" column="9" selection-start-line="39" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/ServeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/ClassDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/ClassDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/CourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/CourseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/GradeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/GradeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/ServeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/TopicDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/TopicDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/RoleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -938,69 +770,292 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/数据库设计.txt">
+    <entry file="file://$PROJECT_DIR$/src/dao/myrom/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="663">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/db/Role.java">
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/CourseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="9" column="28" lean-forward="true" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/db/Class.java">
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/ServeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/TopicDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2163">
+          <caret line="124" column="29" lean-forward="true" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3162#3168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/TopicDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2973#2980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/ServeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="82" column="12" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2973#2980#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/db/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="491">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/db/Grade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="159" column="18" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
+        <state relative-caret-position="2340">
+          <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
+          <folding>
+            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#1916#1917#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/db/Serve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        <state relative-caret-position="227">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/db/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+        <state relative-caret-position="435">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/db/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        <state relative-caret-position="461">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/db/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/DBModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/DBDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/db/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/mydb/db_demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="806">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/RoleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1079">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/GradeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="107" column="43" lean-forward="true" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/GradeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/CourseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/ClassDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2709#2716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/ClassDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/数据库设计.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/form/StuInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/form/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/form/Excel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/form/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>

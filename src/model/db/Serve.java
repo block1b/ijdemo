@@ -12,6 +12,13 @@ public class Serve {
      */
     public Serve() {
     }
+
+    public Serve(int id, String userid, String courseid) {
+        this.id = id;
+        this.userid = userid;
+        this.courseid = courseid;
+    }
+
     /**
      * 
      */
