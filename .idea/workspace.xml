@@ -90,6 +90,23 @@
       <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/template/auth/README.txt">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="123">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+              <folding>
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+              </folding>
+=======
             <state relative-caret-position="52">
               <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
             </state>
@@ -108,8 +125,14 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="351">
               <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="36" />
+=======
+            <state relative-caret-position="406">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+>>>>>>> 6bcddb8dd492f691334284bc8c895cea80e51233
+>>>>>>> 20e6e677e45e931c99362ad83ce080c36b6a3e5e
             </state>
           </provider>
         </entry>
@@ -536,7 +559,11 @@
     <option name="totallyTimeSpent" value="66252000" />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+=======
     <frame x="33" y="200" width="1566" height="1200" extended-state="0" />
+>>>>>>> 6bcddb8dd492f691334284bc8c895cea80e51233
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -556,8 +583,17 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.23756906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32872927" />
+=======
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.28413284" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.3210332" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3210332" />
+>>>>>>> 6bcddb8dd492f691334284bc8c895cea80e51233
+>>>>>>> 20e6e677e45e931c99362ad83ce080c36b6a3e5e
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15032259" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -1010,8 +1046,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/template/auth/README.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="123">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+=======
         <state relative-caret-position="52">
           <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+>>>>>>> 6bcddb8dd492f691334284bc8c895cea80e51233
         </state>
       </provider>
     </entry>
