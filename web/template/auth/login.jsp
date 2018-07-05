@@ -95,7 +95,7 @@
                 
 
 <div class="form-group">
-    <label for="email">ID</label> <input class="form-control" id="id" name="user.id" type="text" value="">
+    <label for="name">Name</label> <input class="form-control" id="name" name="user.username" type="text" value="">
     
 </div>
 
@@ -120,7 +120,7 @@
 <p><input class="btn btn-primary" class="form-control" id="submit" name="submit" type="submit" value="Login"></p>
 
             </form>
-            <p>Not yet signed up? Please <a href="/auth/admin/register/">register for an account</a>.</p>
+            <p>Not yet signed up? Please <a href="register.jsp">register for an account</a>.</p>
         </div>
     </div>
 </div>
