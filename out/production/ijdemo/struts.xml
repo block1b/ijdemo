@@ -11,7 +11,10 @@
         <action name="login" class="auth_action.LoginAction">
             <result>/template/auth/secceed.jsp</result>
             <result name="error">/template/auth/error.jsp</result>
-
+        </action>
+        <action name="register" class="auth_action.RegisterAction">
+            <result>/template/auth/secceed.jsp</result>
+            <result name="error">/template/auth/error.jsp</result>
         </action>
     </package>
 </struts>

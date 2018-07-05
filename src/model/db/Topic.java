@@ -1,4 +1,4 @@
-package model;
+package model.db;
 
 import java.util.*;
 
@@ -13,6 +13,22 @@ public class Topic {
     public Topic() {
     }
 
+    public Topic(int id, String serveid, String topicid, String topicname) {
+        this.id = id;
+        this.serveid = serveid;
+        this.topicid = topicid;
+        this.topicname = topicname;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    private int id;
     /**
      * 
      */
@@ -50,5 +66,15 @@ public class Topic {
 
     public void setTopicname(String topicname) {
         this.topicname = topicname;
+    }
+
+    @Override
+    public String toString() {
+        return "Topic{" +
+                "id=" + id +
+                ", serveid='" + serveid + '\'' +
+                ", topicid='" + topicid + '\'' +
+                ", topicname='" + topicname + '\'' +
+                '}';
     }
 }

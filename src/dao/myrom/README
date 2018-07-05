@@ -1,0 +1,34 @@
+手撸ROM
+/*
+     小组长的方法将mod设置为Object类型的Dao做为基类，新的模型Dao结继承该类；我觉得本质时一样的，但是有差异。
+*/
+基于Dao思想做进一步开发。
+设置一抽象类model，再Dao中设置model成员，设置对该model对应数据库的增删查改方法。
+使用该Dao进行数据库操作，只需要实力话对应的模型成为Dao的成员，即可调用方法。
+class Dao（class model）{
+
+static Model mod;
+
+query();
+create();
+delete();
+update();
+}
+
+class User() extend Model{
+private Xxx;
+setXxx();
+getXxx();
+}
+
+main(){
+Dao d;
+d.setMod(User)
+d.query();
+}
+
+ps:model类时不必要的，因为，所有类都是Object的子类。
+
+本质时基于Dao模式的动态调用。
+
+emmm感觉犯了主管唯心主义的错误，这个功能最少要3天。老老实实滚回去实现功能好了，小组长这部分写过了但不够优雅，有时间再说吧。

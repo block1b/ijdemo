@@ -7,32 +7,33 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
-import model.User;
+import model.db.User;
 
 public class LoginAction extends ActionSupport implements ModelDriven<User>, SessionAware{
 
-    private User User;
+    private User user;
     private Map<String,Object> session;
     /**
      *
      */
     private static final long serialVersionUID = 1L;
     public User getUser() {
-        return User;
+        return user;
     }
     public void setUser(User User) {
-        this.User = User;
+        this.user = User;
     }
 
     public String execute() throws Exception {
-        String User_name = User.getId();
-        String User_pass = User.getPassword();
-        System.out.println("Username:" + User_name);
-        System.out.println("passworld:" + User_pass);
-        System.out.println(User.toString());  // 该方法需要重写
+        String user_name = user.getUsername();
+        String user_password = user.getPassword();
+        System.out.println("Username:" + user_name);
+        System.out.println("passworld:" + user_password);
+        System.out.println(user.toString());  // 该方法需要重写
+        session.put("MSG", "登陆表单提交成功！");
+        if("admin".equals(user_name)) {
+            session.put("User", user);
 
-        if("admin".equals(User_name)) {
-            session.put("User", User);
             return SUCCESS;
         }
         
@@ -41,7 +42,7 @@ public class LoginAction extends ActionSupport implements ModelDriven<User>, Ses
 
     @Override
     public User getModel() {
-        return User;
+        return user;
     }
 
     @Override

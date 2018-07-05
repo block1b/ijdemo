@@ -1,4 +1,4 @@
-package model;
+package model.db;
 
 import java.util.*;
 
@@ -38,6 +38,23 @@ public class Role {
 
     }
 
+    public Role(int id, String roleid, String rolename, String permissions) {
+        this.id = id;
+        this.roleid = roleid;
+        this.rolename = rolename;
+        this.permissions = permissions;
+    }
+
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     /**
      * 
      */
@@ -53,4 +70,13 @@ public class Role {
      */
     private String permissions;
 
+    @Override
+    public String toString() {
+        return "Role{" +
+                "id=" + id +
+                ", roleid='" + roleid + '\'' +
+                ", rolename='" + rolename + '\'' +
+                ", permissions='" + permissions + '\'' +
+                '}';
+    }
 }
