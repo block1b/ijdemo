@@ -6,24 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e84f523-2a9d-43f0-ad6c-5175f8671b89" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/auth_action/RegisterAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/form/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/model_demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ijdemo_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ijdemo_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ijdemo/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ijdemo/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth_action/LoginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth_action/LoginAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/excel/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/excel/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/form/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/excel/Excel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/form/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/excel/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/form/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/form/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/form/StuInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/excel/StuInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/template/auth/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/template/auth/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/template/auth/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/template/auth/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/template/auth/secceed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/template/auth/secceed.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="5e84f523-2a9d-43f0-ad6c-5175f8671b89" name="Default" comment="1" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,109 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/template/auth/login.jsp">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="124" column="10" lean-forward="true" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/db/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="111" column="20" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="111" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/template/auth/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="104" column="109" selection-start-line="104" selection-start-column="109" selection-end-line="104" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Register.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/form/Register.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model_demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/model_demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/auth_action/LoginAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/auth_action/RegisterAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/template/auth/README.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/struts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
-        </entry>
-      </file>
-      <file leaf-file-name="secceed.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/template/auth/secceed.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="377">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -165,9 +50,9 @@
       <find>class</find>
       <find>inser</find>
       <find>Person</find>
-      <find>int(11) NOT NULL AUTO_INCREMENT</find>
-      <find>throw new SQLException(&quot;查询所有数据失败&quot;);</find>
-      <find>throw new SQLException</find>
+      <find />
+      <find />
+      <find />
       <find>Class</find>
       <find>Course</find>
       <find />
@@ -180,8 +65,8 @@
       <find>email</find>
       <find>LoginAction</find>
       <find>User</find>
-      <find>Not yet signed up</find>
-      <find>Already signed up</find>
+      <find />
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>Id</replace>
@@ -190,10 +75,10 @@
       <replace>SQLException</replace>
       <replace>Object</replace>
       <replace>Role</replace>
-      <replace>INTEGER GENERATED BY DEFAULT AS IDENTITY</replace>
+      <replace />
       <replace>Class</replace>
-      <replace>// throw new SQLException(&quot;查询所有数据失败&quot;);</replace>
-      <replace>// throw new SQLException</replace>
+      <replace />
+      <replace />
       <replace>Course</replace>
       <replace>Grade</replace>
       <replace>Serve</replace>
@@ -280,7 +165,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="33" />
     <option name="y" value="200" />
     <option name="width" value="1566" />
@@ -299,6 +184,11 @@
             <path>
               <item name="ijdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ijdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ijdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ijdemo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ijdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -380,19 +270,19 @@
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\block_han\mydata\my_struct2\ijdemo\src\model\excel" />
+      <recent name="E:\block_han\mydata\my_struct2\ijdemo\src\dao\mydb" />
+      <recent name="D:\block_file\my_data\my_struct2\ijdemo\web\template\auth" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dao.myrom" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\block_han\mydata\my_struct2\ijdemo\src\dao\db" />
       <recent name="E:\block_han\mydata\my_struct2\ijdemo\src\dao\myrom" />
       <recent name="E:\block_han\mydata\my_struct2\ijdemo\src\dao\dao_rom_sj\Dao2" />
       <recent name="E:\block_han\mydata\my_struct2\ijdemo\lib" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="dao.myrom" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\block_han\mydata\my_struct2\ijdemo\src\model\excel" />
-      <recent name="E:\block_han\mydata\my_struct2\ijdemo\src\dao\mydb" />
-      <recent name="D:\block_file\my_data\my_struct2\ijdemo\web\template\auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -560,10 +450,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65425000" />
+    <option name="totallyTimeSpent" value="65465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="200" width="1566" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -584,7 +475,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.28413284" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3210332" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3210332" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15032259" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -630,31 +521,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dao/myrom/DBModelDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/myrom/DBModeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="37" column="82" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#3553#3561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/dao_rom_sj/DataBaseConnect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -666,33 +532,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/db/DBModelDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/db/DBModeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="144" column="25" lean-forward="true" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/db/DBModelDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/dao/db/DBModeDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/dao/myrom/demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="46" column="9" selection-start-line="39" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="28" lean-forward="true" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,9 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,9 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,9 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="928">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,10 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2163">
           <caret line="124" column="29" lean-forward="true" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3162#3168#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,10 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="82" column="12" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2973#2980#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,23 +676,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/DBModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/mydb/DBDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/DBModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/dao/mydb/DBDao.java" />
     <entry file="file://$PROJECT_DIR$/src/model/db/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -886,9 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-181">
           <caret line="107" column="43" lean-forward="true" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1002">
           <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,10 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2709#2716#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,9 +782,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/excel/README1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/excel/README1" />
     <entry file="file://$PROJECT_DIR$/src/model/excel/README">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -997,14 +795,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/template/auth/secceed.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="595">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/template/auth/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="289">
           <caret line="124" column="10" lean-forward="true" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
         </state>
       </provider>
@@ -1092,13 +890,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="964">
+          <caret line="118" column="48" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
+          <folding>
+            <element signature="e#9714#9720#0" expanded="true" />
+            <element signature="e#9728#9734#0" expanded="true" />
+            <element signature="e#10525#10531#0" expanded="true" />
+            <element signature="e#10539#10545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ijdemo:war exploded</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1111,7 +929,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Struts 2 (ijdemo)|Struts 2</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
