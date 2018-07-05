@@ -32,11 +32,25 @@ public class LoginAction extends ActionSupport implements ModelDriven<User>, Ses
         System.out.println(user.toString());  // 该方法需要重写
         session.put("MSG", "登陆表单提交成功！");
         if("admin".equals(user_name)) {
-            session.put("User", user);
+            session.put("user", user);
 
             return SUCCESS;
         }
-        
+        session.put("MSG", "登陆失败！");
+        return ERROR;
+    }
+
+    // 登出
+    public String logout() throws Exception {
+        try {
+            session.remove("user");
+            session.put("MSG", "登出成功！");
+            return SUCCESS;
+        }catch (Exception e) {
+            // TODO: handle exception
+            System.out.println("loger is none");
+        }
+        session.put("MSG", "登出失败！");
         return ERROR;
     }
 

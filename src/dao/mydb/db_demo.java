@@ -8,13 +8,13 @@ import java.util.List;
 
 public class db_demo {
     public static void main(String[] args) throws Exception {
-//        RoleDao rd = new RoleDaoImpl();
-//        Role r = new Role(0,"1","teacher","r");
-//        rd.update(r);
-//        List<Role> roles = rd.findall();
-//        for(Role role:roles){
-//            System.out.println(role.toString());
-//        }
+        RoleDao rd = new RoleDaoImpl();
+//        Role r = new Role(0,"2","admin","r");
+//        rd.add(r);
+        List<Role> roles = rd.findall();
+        for(Role role:roles){
+            System.out.println(role.toString());
+        }
 //
 ////        ClassDao cd = new ClassDaoImpl();
 ////        Class c = new Class(0,"软件1503");

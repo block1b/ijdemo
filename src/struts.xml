@@ -3,7 +3,6 @@
 <!DOCTYPE struts PUBLIC
         "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
         "http://struts.apache.org/dtds/struts-2.0.dtd">
-
 <struts>
     <!--排除静态文件，避免被过滤器过滤-->
     <constant name="struts.action.excludePattern" value="/static/.*?" />
@@ -12,8 +11,17 @@
             <result>/template/auth/secceed.jsp</result>
             <result name="error">/template/auth/error.jsp</result>
         </action>
+        <action name="logout" class="auth_action.LoginAction" method="logout">
+            <result>/template/auth/auth_index.jsp</result>
+            <result name="error">/index.jsp</result>
+        </action>
         <action name="register" class="auth_action.RegisterAction">
             <result>/template/auth/secceed.jsp</result>
+            <result name="error">/template/auth/error.jsp</result>
+        </action>
+        <action name="manage_show" class="adminer_action.ManageAction">
+            <!--此处必须使用重定向到资源文件，因为页面是js动态加载的-->
+            <result type="redirect">/template/adminer/show.jsp</result>
             <result name="error">/template/auth/error.jsp</result>
         </action>
     </package>

@@ -11,7 +11,9 @@
     <title>首页</title>
   </head>
   <body>
-  <a href="./template/auth/login.jsp">login</a>
-  <a href="./template/auth/register.jsp">register</a>
+  <a href="./template/auth/auth_index.jsp">Auth</a>
+  <a href="logout.action">logout</a>
+  <a href="./template/adminer/admin_index.jsp">admin home</a>
+  <a href="manage_show.action">show</a>
   </body>
 </html>

@@ -112,9 +112,9 @@ public class RoleDaoImpl implements RoleDao {
             while(rs.next()){
                 r = new Role();
                 r.setId(rs.getInt(1));
-                r.setRoleid(rs.getString(1));
-                r.setRolename(rs.getString(2));
-                r.setPermissions(rs.getString(3));
+                r.setRoleid(rs.getString(2));
+                r.setRolename(rs.getString(3));
+                r.setPermissions(rs.getString(4));
                 roles.add(r);
             }
         }catch(SQLException e){
