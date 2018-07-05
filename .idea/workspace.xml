@@ -6,24 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e84f523-2a9d-43f0-ad6c-5175f8671b89" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/auth_action/RegisterAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/form/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/model_demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ijdemo_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ijdemo_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ijdemo/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ijdemo/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth_action/LoginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth_action/LoginAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/excel/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/excel/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/form/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/excel/Excel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/form/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/excel/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/form/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/form/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/form/StuInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/excel/StuInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/template/auth/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/template/auth/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/template/auth/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/template/auth/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/template/auth/secceed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/template/auth/secceed.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="5e84f523-2a9d-43f0-ad6c-5175f8671b89" name="Default" comment="1" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -560,7 +543,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65425000" />
+    <option name="totallyTimeSpent" value="66098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="200" width="1566" height="1200" extended-state="0" />
