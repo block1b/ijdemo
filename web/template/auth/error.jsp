@@ -12,5 +12,6 @@
 </head>
 <body>
 <h1>失败</h1>
+${MSG}
 </body>
 </html>

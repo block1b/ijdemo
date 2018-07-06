@@ -112,9 +112,9 @@ public class RoleDaoImpl implements RoleDao {
             while(rs.next()){
                 r = new Role();
                 r.setId(rs.getInt(1));
-                r.setRoleid(rs.getString(1));
-                r.setRolename(rs.getString(2));
-                r.setPermissions(rs.getString(3));
+                r.setRoleid(rs.getString(2));
+                r.setRolename(rs.getString(3));
+                r.setPermissions(rs.getString(4));
                 roles.add(r);
             }
         }catch(SQLException e){
@@ -124,6 +124,33 @@ public class RoleDaoImpl implements RoleDao {
             DBUtils.close(rs, ps, conn);
         }
         return roles;
+    }
+
+    public Role findbyid(int id)throws SQLException{
+        // TODO implement here
+        Connection conn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        Role r = new Role();
+        String sql = "select id,roleid,rolename,permissions from role where id=?";
+        try{
+            conn = DBUtils.getConnection();
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1,id);
+            rs = ps.executeQuery();
+            while(rs.next()){
+                r.setId(rs.getInt(1));
+                r.setRoleid(rs.getString(2));
+                r.setRolename(rs.getString(3));
+                r.setPermissions(rs.getString(4));
+            }
+        }catch(SQLException e){
+            e.printStackTrace();
+            // throw new SQLException("查询所有数据失败");
+        }finally{
+            DBUtils.close(rs, ps, conn);
+        }
+        return r;
     }
 
 }

@@ -1,3 +1,9 @@
 .idea
+<<<<<<< HEAD
 out
 *.iml
+=======
+out/
+.idea/workspace.xml
+*.xml
+>>>>>>> temp-branch
