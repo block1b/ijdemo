@@ -11,10 +11,12 @@ public class db_demo {
         RoleDao rd = new RoleDaoImpl();
 //        Role r = new Role(0,"2","admin","r");
 //        rd.add(r);
-        List<Role> roles = rd.findall();
-        for(Role role:roles){
-            System.out.println(role.toString());
-        }
+//        List<Role> roles = rd.findall();
+//        for(Role role:roles){
+//            System.out.println(role.toString());
+//        }
+        Role r = rd.findbyid(2);
+        System.out.println(r.toString());
 //
 ////        ClassDao cd = new ClassDaoImpl();
 ////        Class c = new Class(0,"软件1503");

@@ -20,8 +20,8 @@ public class LoginAction extends ActionSupport implements ModelDriven<User>, Ses
     public User getUser() {
         return user;
     }
-    public void setUser(User User) {
-        this.user = User;
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public String execute() throws Exception {
@@ -34,7 +34,7 @@ public class LoginAction extends ActionSupport implements ModelDriven<User>, Ses
         if("admin".equals(user_name)) {
             session.put("user", user);
 
-            return SUCCESS;
+            return "admin";
         }
         session.put("MSG", "登陆失败！");
         return ERROR;

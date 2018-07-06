@@ -15,5 +15,8 @@
   <a href="logout.action">logout</a>
   <a href="./template/adminer/admin_index.jsp">admin home</a>
   <a href="manage_show.action">show</a>
+  <a href="findbyid.action?id=2">update</a>
+  <a href="./template/adminer/create.jsp">create</a>
+  <a href="delete.action?id=0">delete</a>
   </body>
 </html>

@@ -28,5 +28,6 @@ public interface RoleDao {
      * @return
      */
     public List<Role> findall()throws SQLException;
+    public Role findbyid(int id)throws SQLException;
 
 }
