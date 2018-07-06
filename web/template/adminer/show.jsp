@@ -70,13 +70,6 @@
         </s:iterator>
     </table>
 
-        <%--获取table对象的个数和属性 todo --%>
-
-        <%
-//            List<String> table_head = List<String> session.getAttribute("table_head");
-            session.getAttribute("table");
-        %>
-
     <ul class="nav nav-tabs actions-nav">
         <li class="active">
             <a href="javascript:void(0)">List (25)</a>
